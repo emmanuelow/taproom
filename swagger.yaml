@@ -20,11 +20,11 @@ consumes:
 produces:
   - application/json
 paths:
-  /beer_:
+  /beers:
     get:
       description: Returns a list of beers!
       responses:
-        204:
+        200:
           description: succesful beer response
           headers:
             Content-Type:   
